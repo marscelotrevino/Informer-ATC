@@ -3,3 +3,4 @@ llama_index==0.8.11.post3
 openai==0.27.4
 streamlit==1.26.0
 pypdf==3.15.4
+nltk==3.8.1
