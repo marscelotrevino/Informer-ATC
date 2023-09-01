@@ -8,7 +8,7 @@ import streamlit as st
 import openai
 
 st.set_page_config(page_title="ATC Informer", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
-openai.api_key = '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'
+openai.api_key = st.secrets['openai_token']
 st.title("ATC Informer: Powered by Medical Data")
 
 if "messages" not in st.session_state.keys(): # Initialize the chat message history
